@@ -30,5 +30,16 @@
     "@types/react-dom": "19.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.1.7"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
   }
 }
